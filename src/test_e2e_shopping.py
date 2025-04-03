@@ -7,8 +7,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from pageObjects.login import LoginPage
 #C:\Users\Admin\PycharmProjects\E-shopping-Framework\data\data_config.json
 #read userdata
-#test_data_file_path = "../data/data_config.json"
-test_data_file_path = "data/data_config.json"
+test_data_file_path = "../data/data_config.json"
+#test_data_file_path = "data/data_config.json"
 with open(test_data_file_path) as file_data:
     test_data = json.load(file_data)
     test_list = test_data["data"]
